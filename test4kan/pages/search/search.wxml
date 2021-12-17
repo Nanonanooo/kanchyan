@@ -1,0 +1,14 @@
+<!--pages/serach/search.wxml-->
+<view class="search">
+	<view class="instruction">
+		<text style="text-align: center;">请选择你要搜索的网站！</text>
+	</view>
+	<view class="engine">
+		<button bindtap="goToMoe">萌娘百科</button>
+		<button >Bangumi</button>
+		<button bindtap="goToVocaDB">VocaDB</button>
+		<button>VGMDB</button>
+		<button>VNDB</button>
+	</view>
+	
+</view>

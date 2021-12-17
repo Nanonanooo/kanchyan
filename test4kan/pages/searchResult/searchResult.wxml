@@ -1,0 +1,11 @@
+<!--pages/searchResult/searchResult.wxml-->
+<view>
+	<input class="searchBar" placeholder="输入你想搜索的东西叭~" focus="true" type="text" confirm-type="search" bindconfirm="searchSubmit" bindinput="getInput" value="{{keywords}}" />
+</view>
+<block wx:if="{{engine=='vocadb'}}">
+	<view wx:for="{{response}}" wx:key="index" wx-for-item="item">{{index+1}}: {{item.defaultName}}-{{item.artistString}}/{{item.publishDate}}</view>
+</block>
+<block wx:if="{{engine=='moegirl'}}">
+	<view>{{response}}</view>
+</block>
+

@@ -1,0 +1,5 @@
+/* pages/news/news.wxss */
+image{
+	width: 10%;
+	height: auto;
+}

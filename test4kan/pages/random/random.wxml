@@ -1,0 +1,7 @@
+<!--pages/random/random.wxml-->
+<image src="{{source}}" mode="widthFix"></image>
+<text>{{words}}</text>
+<view>
+	<audio src="{{song.link}}" controls="true" poster="{{song.cover}}" name="{{song.title}}" author="{{song.artist}}">
+	</audio>
+</view>

@@ -1,0 +1,10 @@
+<!--pages/news/news.wxml-->
+<view>
+	<view wx:for="{{response}}" wx-for-item="item" wx:key="index">
+		{{item.date}}
+		<view wx:for="{{item.seasons}}" wx-for-item="item" wx:key="index">
+			<image src="{{item.square_cover}}" mode="widthFix"></image>
+			{{item.pub_time}}-{{item.title}}-{{item.pub_index}}
+		</view>
+	</view>
+</view>

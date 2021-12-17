@@ -1,0 +1,9 @@
+/* pages/searchResult/searchResult.wxss */
+.searchBar{
+	border: solid pink 5rpx;
+	border-radius: 5px;
+	outline-style: none;
+	width: 95%;
+	margin-left: 2%;
+	margin-top: 2.5%;
+}

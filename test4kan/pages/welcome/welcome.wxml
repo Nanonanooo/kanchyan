@@ -1,0 +1,7 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+	<image class="welcomeImage" src="https://hakaimg.com/i/2021/12/15/qst38x.png" mode="widthFix"></image>
+	<text class="welcomeText">欢迎使用栞酱的工具箱~</text>
+	<image class="welcomeIcon" src="https://hakaimg.com/i/2021/12/15/sgpech.jpg" mode="widthFix"></image>
+	<button class="welcomeButton" bindtap="goTo">你好，栞酱！</button>
+</view>

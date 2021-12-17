@@ -1,0 +1,40 @@
+{
+	"pages": [
+		"pages/logs/logs",
+		"pages/welcome/welcome",
+		"pages/search/search",
+		"pages/news/news",
+		"pages/random/random",
+		"pages/searchResult/searchResult"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#f8cac8",
+		"navigationBarTitleText": "栞酱的工具箱",
+		"navigationBarTextStyle": "white"
+	},
+	"tabBar": {
+		"position": "top",
+		"color": "#000",
+		"backgroundColor": "#fff",
+		"selectedColor": "#f8cac8",
+		"list": [
+			{
+				"text": "搜索",
+				"pagePath": "pages/search/search"
+			},
+			{
+				"text": "新番",
+				"pagePath": "pages/news/news"
+			},
+			{
+				"text": "每日",
+				"pagePath": "pages/random/random"
+			}
+		]
+	},
+	"entryPagePath": "pages/welcome/welcome",
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"lazyCodeLoading": "requiredComponents"
+}
